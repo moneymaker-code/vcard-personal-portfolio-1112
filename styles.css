@@ -1,0 +1,65 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+ box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Typography Styling */
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.info {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+/* Colored Info */
+.address {
+  color: #ffecd2;
+}
+
+.phone {
+  color: #d0f0fd;
+}
+
+.email {
+  color: #ffe6f7;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .info {
+    font-size: 1rem;
+  }
+}
